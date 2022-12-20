@@ -12,6 +12,7 @@ const config = require('./config');
 const { name, keys } = config.session;
 const { url } = config.mongodb;
 const routes = require('./routes');
+mongoose.set('strictQuery', true);
 
 mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true });
 
