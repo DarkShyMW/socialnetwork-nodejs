@@ -3,7 +3,7 @@
 module.exports = {
     fileSize: 1000000,
     mongodb: {
-        url: 'mongodb://localhost:27017/db'
+        url: 'mongodb://10.10.10.20:27017/db'
         },
     session: {
         name: '',
